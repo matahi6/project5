@@ -1,0 +1,837 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+ 
+/*nav section start*/
+
+nav{
+    width: 100%;
+    height: fit-content;
+}
+.navboxarea{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbox1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbox1 img{
+    margin-left: -50px;
+}
+.navbox2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbox2 #nav{
+    display: none;
+}
+.navbox2 label{
+   position: absolute;
+   right: 30px;
+   display: none;
+}
+.navbox2 ul{
+    display: flex;
+    list-style: none;
+}
+.navbox2 ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbox2 ul li ul{
+    flex-direction: column;
+    position: absolute;
+    height: fit-content;
+    background-color: aliceblue;
+    display: none;
+    transition: all 0.2s ease-in-out;
+}
+.navbox2 ul li:hover>ul{
+    display: block;
+}
+.navbox2 ul li ul li{
+    position: relative;
+    right: 20px;
+}
+.navbox2 ul li ul li ul{
+    position: absolute;
+    top:10px;
+    left: 110px;
+}
+.navbox2 ul li ul li a{
+    text-align: center;
+}
+.navbox2 ul li{
+    padding:5px  25px;
+}
+.navbox2 ul li ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.navbox3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbox3 a{
+    padding: 10px 20px;
+    background-color: rgb(0, 3, 156);
+    border-radius: 30px;
+    color: rgb(187, 159, 0);
+    text-decoration: none;
+}
+
+/*nav section start*/
+
+
+/*first section start*/
+
+.firstsection{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.firsttext{
+    height: fit-content;
+    width: 45%;
+    margin-top: -160px;
+}
+.firsttext h4{
+    padding:5px 10px;
+    background-color: rgba(255, 184, 102, 0.795);
+    color: rgb(255, 145, 0);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+}
+.firsttext h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.firsttext p{
+    color: rgb(145, 145, 145);
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.firstimg img{
+    width: 100%;
+}
+.firstimg{
+    height: fit-content;
+    width: 40%;
+}
+.firsttext #a1{
+    padding:15px 25px ;
+    background-color: darkblue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 20px;
+    border:darkblue solid 2px;
+    transition: all 0.3s ease;
+}
+.firsttext #a2{
+    padding:15px 25px ;
+    background-color: rgb(255, 255, 255);
+    color:darkblue;
+    border: 2px solid darkblue;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+.firsttext #a1:hover{
+    background-color: rgb(255, 255, 255);
+    color:darkblue;
+    border: 2px solid darkblue;
+}
+.firsttext #a2:hover{
+    background-color: darkblue;
+    color: #fff;
+}
+
+
+/*first section end*/
+
+
+/*secound section start*/
+
+.secoundsection{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.secoundtext{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.secoundtext h4{
+    padding:5px 15px;
+    background-color: rgba(255, 184, 102, 0.507);
+    color: rgb(255, 145, 0);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    text-transform: uppercase;
+}
+.secoundtext h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.secoundtext p{
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+    line-height: 20px;
+}
+.secoundboxarea{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:100px auto;
+}
+.secoundbox img{
+    width: 30px;
+  
+}
+.secoundbox{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin: 20px;
+}
+.secoundbox p{
+    font-weight: 15px;
+    color: rgb(133, 133, 133);
+    line-height: 20px;
+}
+.secoundbox h4{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+/*secound section end*/ 
+
+
+/*third section start*/
+
+.thirdsection{
+    width:100% ;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.thirdimg{
+    width: 55%;
+    height: fit-content;
+    overflow: hidden;
+}
+.thirdimg img{
+    width: 100%;
+}
+.thirdtext{
+    width: 30%;
+    text-align: left;
+}
+.thirdtext h4{
+    padding:5px 15px;
+    background-color: rgba(255, 184, 102, 0.507);
+    color: rgb(255, 145, 0);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.thirdtext h1{
+    margin-top: 10px;
+    font-size: 35px;
+}
+.thirdtext p{
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+    line-height: 20px;
+}
+.thirdtext ul li{
+    color: rgb(145, 145, 145);
+    line-height: 20px;
+}
+.thirdtext ul{
+    list-style-image: url(check.png);
+    list-style-position: outside;
+    margin-left: -11px;
+    margin-bottom: 50px;
+}
+.thirdtext a{
+    padding:12px 20px;
+    border: darkblue 2px solid;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.thirdtext a:hover{
+    background-color: rgb(255, 255, 255);
+    color:darkblue;
+    border: 2px solid darkblue;
+}
+
+
+/*third section end*/
+
+
+/*forth section start*/
+
+.forthsection{
+    height: 130vh;
+    width: 100%;
+    overflow: hidden;
+}
+.forthtext{
+    text-align: center;
+    width: 100%;
+}
+.forthtext h4{
+    padding:5px 15px;
+    background-color: rgba(255, 184, 102, 0.507);
+    color: rgb(255, 145, 0);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: auto;
+}
+.forthtext h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.forthboxarea{
+    height: fit-content;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.forthbox{
+    width: 380px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: rgba(0, 0, 0, 0.123) solid 1px;
+    margin: 30px 0;
+}
+.forthbox img{
+    width: 50px;
+}
+.forthboxtext{
+    width:70% ;
+}
+.forthboxtext p{
+    color: rgb(119, 119, 119);
+    line-height: 20px;
+    font-size: 15px;
+}
+.forthboxtext h3{
+    text-transform: capitalize;
+}
+
+
+/*forth section end*/
+
+
+/*fifth section start*/
+
+.fifthsection{
+    width: 100%;
+    height: 80vh;
+}
+.fifthtext{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.fifthtext h4{
+    padding:5px 15px;
+    background-color: rgba(255, 184, 102, 0.507);
+    color: rgb(255, 145, 0);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: auto;
+}
+.fifthtext h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    margin: 15px 0;
+}
+.fifthtext p{
+    color: rgb(133, 133, 133);
+    font-size: 15px;
+    line-height: 20px;
+}
+.fifthboxarea{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.fifthbox{
+    height: fit-content;
+    width: 360px;
+    border: 1px rgba(0, 0, 0, 0.171) solid;
+}
+.fifthboxname{
+    display: flex;
+    align-items: center;
+}
+.fifthboxnameimg{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.fifthboxnametext h3{
+    margin-bottom: -19px;
+    color: rgb(138, 138, 138);
+    font-size: 17px;
+}
+.fifthboxnametext h4{
+    font-size: 15px;
+    color:rgb(138, 138, 138) ;
+}
+.fifthboxnametext{
+    overflow: hidden;
+    margin-left: 26px;
+}
+.fifthboxnameimg img{
+    width: 100%;
+}
+.fifthbox p{
+    font-size: 15px;
+    color: rgb(131, 131, 131);
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+
+/*fifth section end*/
+
+
+/*footer section start*/
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.footerboxarea{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.footer div ul li{
+    cursor: pointer;
+}
+.footerboxarea div ul{
+    list-style: none;
+    margin-left: -40px;
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    line-height: 20px;
+}
+.footerbox1 img{
+    width: 25px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.footerbox1 p{
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    line-height: 20px;
+}
+.footerboxarea div{
+    margin: 20px;
+}
+.footerend{
+    margin: auto;
+    width: 85%;
+    text-align: center;
+}
+.footerend p{
+    color: rgb(94, 94, 94);
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.footerend p span a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+    
+
+/*footer section end*/
+
+
+/*responsive section start*/
+
+    /*responsive for daptop start*/
+
+@media(max-width:940px){
+
+        /*nav responsive start*/
+
+    .navbox3::before{
+        content: url(arrow.png);
+        background-color: darkblue;
+        width: 30px;
+        height: 30px;
+        margin-right: 80px;
+        border-radius:50% ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbox3 a{
+        display: none;
+    }
+    .navbox2 label{
+        display: block;
+    }
+    .navbox2 ul{
+        display: block;
+        position: absolute;
+        top: 65px;
+        background-color: aliceblue;
+        width: 120px;
+        height: 300px;
+        right: -200px;
+        text-align: right;
+        transition: all 0.3s ease;
+    }
+    .navbox2 ul li ul{
+        position: absolute;
+        right: 100px;
+        background-color: rgb(232, 244, 255);
+    }
+    .navbox2 ul li ul li ul{
+        position: absolute;
+        left: -115%;
+        top: 20px;
+    }
+    .navbox2 #nav:checked ~ ul{
+        right: 0px;
+    }
+    .navbox2 ul li{
+        padding: 15px 20px;
+    }
+
+        /*nav responsive end*/
+
+
+        /*first section start*/
+
+    .firsttext h1{
+        font-size: 33px;
+    }
+
+        /*first sction end*/
+
+
+        /*secound section start*/
+
+    .secoundsection{
+        width: 100%;
+        height: fit-content;
+    }
+    .secoundtext h1{
+        font-size: 35px;
+    }
+    .secoundtext h4{
+        font-size: 12px;
+    }
+
+        /*secound section end*/
+
+
+        /*third section start*/
+
+    .thirdsection{
+        display: block;
+    }
+    .thirdtext h4{
+        font-size: 12px;
+        margin: auto;
+    }
+    .thirdimg{
+        margin: auto;
+    }
+    .thirdtext{
+        width: 85%;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .thirdtext ul{
+        text-align: left;
+        margin-left: 30%;
+    }
+
+        /*third section end*/
+
+
+        /*forth section start*/
+
+    .forthsection{
+        margin-top: 200px;
+        margin-bottom: 200px;
+        width: 100%;
+        height: fit-content;
+    }
+
+
+        /*forth section end*/
+
+
+        /*fifth section start*/
+
+    .fifthbox{
+        margin: 20px;
+    }
+    .fifthsection{
+        height: fit-content;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .fifthboxarea{
+        width: 80%;
+    }
+        /*fifth section end*/
+
+
+        /*footer section start*/
+
+    .footer{
+        height: fit-content;
+        width: 100%;
+    }    
+
+        /*footer section end*/
+
+}
+
+    /*responsive for laptop end*/
+
+
+    /*responsive for other device start*/
+
+    @media(max-width:823px){
+        .firsttext h1{
+            font-size: 25px;
+        }
+        .firsttext h4{
+            font-size: 15px;
+        }
+        .firsttext p{
+            font-size: 15px;
+        }
+        .firsttext #a1, .firsttext #a2{
+            padding: 10px;
+            font-size: 15px;
+        }
+        .firstimg img{
+            width: 100%;
+        }
+    }
+    @media(max-width:750px){
+        .firstsection{
+           display: block;
+            margin-bottom: 50px;
+            height: fit-content;
+        }
+        .navbox1{
+            margin-left: 25px;
+        }
+        .firsttext{
+            width: 80%;
+            margin: 20px auto;
+            text-align: left;
+        }
+        .firstimg{
+            margin:40px auto;
+            width: 70%;
+        }
+        .secoundtext{
+            margin-bottom: -50px;
+        }
+        .thirdtext a{
+            padding:7px 10px;
+            font-size: 15px;
+        }
+        .thirdsection{
+            margin-bottom: -100px;
+            height: fit-content;
+        }
+        .fifthtext{
+            width: 85%;
+            margin: auto;
+        }
+        .fifthtext h1{
+            font-size: 30px;
+        }
+        .fifthsection{
+            margin-bottom: 40px;
+            margin-top: -50px;
+        }
+    }
+    @media(max-width:550px){
+        .navbox1{
+            margin-left: 50px;
+        }
+        .navbox3{
+            width: fit-content;
+        }
+    }
+    @media(max-width:500px){
+        .forthboxarea{
+            width: 70%;
+        }
+        .forthbox{
+            height: fit-content;
+        }
+    }
+    @media(max-width:450px){
+        .thirdtext h1{
+            font-size: 30px;
+        }
+        .thirdtext ul{
+            margin-left: 10px;
+            font-size: 15px;
+        }
+    }
+    @media(max-width:400px){
+        .fifthbox p{
+            display: none;
+        }
+        .fifthboxname{
+            display: block;
+        }
+        .thirdimg{
+            width: 70%;
+            height: fit-content;
+        }
+        .fifthboxnameimg{
+            margin:10px auto;
+        }
+        .fifthboxnametext{
+            text-align: center;
+            margin: auto;
+        }
+        .navbox2 ul li ul li:hover>ul{
+            display: none;
+        }
+        
+    }
+    @media(max-width:350px){
+        .navbox1{
+            margin-left: 70px;
+        }
+        .firsttext #a1, .firsttext #a2{
+            font-size: 12px;
+            padding: 7px;
+            margin-right: 5px;
+        }
+        .firstimg{
+            width: 86%;
+            height: fit-content;
+        }
+        .secoundtext h1{
+            font-size: 27px;
+        }
+        .thirdtext h1{
+            font-size: 27px;
+        }
+        .forthtext h1{
+            font-size: 28px;
+        }
+        .footerend p{
+            font-size: 15px;
+        }
+        .forthbox{
+            display: block;
+        }
+        .forthboxarea .forthbox img{
+         display: block;
+         margin: 10px auto;
+        }
+        .forthbox .forthboxtext p{
+            text-align: center;
+        }
+        .forthbox .forthboxtext{
+            width: 90%;
+            margin: auto;
+        }
+        .forthbox h3{
+            text-align: center;
+        }
+    }
+    
+
+    /*responsive for other device end*/
+
+/*responsive section end*/
